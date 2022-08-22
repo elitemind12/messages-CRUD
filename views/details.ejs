@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head') %>
+<body>
+    <div class="container-fluid style-destroyer">
+        <div class="title-wrapper pt-30">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="title mb-30">
+                        <h2>Details</h2>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="alert-list-wrapper">
+            <div class="alerts-wrapper">
+    <div class="alert-box primary-alert pl-100">
+        <div class="left">
+            <h5 class="text-bold"><%= message.username %> </h5>
+        </div>
+        <div class="alert">
+            <h4 class="alert-heading">id: #<%= message.id %> </h4>
+            <p class="text-medium">
+               message: <%= message.comment %> 
+            </p>
+        </div>
+    </div>
+ 
+    </div>
+    <a href="/">
+        <button   class="main-btn info-btn rounded-full btn-hover" >Home</button>
+    </a>
+    
+    </div>
+    
+    </div>
+    <%- include('partials/scripts') %>
+</body>
+</html>

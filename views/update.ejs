@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %>
+    <section class="tab-components">
+        <div class="container-fluid style-destroyer">
+            <div class="form-elements-wrapper">
+                <div class="row">
+                    <div class="">
+                <div class="title-wrapper pt-30">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="title mb-30">
+                                <h2>Update Message</h2>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <div class="card-style mb-30">
+                    <form action="/<%= message.id %>?_method=PATCH" method="post">
+                            <div class="input-style-1">
+                                <label>update</label>
+                                <textarea placeholder="<%= message.comment %> " name="comment" rows="5"></textarea>
+                            </div>
+                        <button   class="main-btn active-btn rounded-full btn-hover" >Save</button>
+                    </form>
+                   
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <%- include('partials/scripts') %>
+</html>
