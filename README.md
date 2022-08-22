@@ -8,10 +8,10 @@
 
 # DEVELOPMENT LANGUAGES 
 
-~ Express - NodeJS frameworks for templating HTML
-~ ejs -  js format for templating html codes
-~ JS 
-~ CSS
+- Express - NodeJS frameworks for templating HTML
+- ejs -  js format for templating html codes
+- JS 
+- CSS
 - SCSS
 
 # REQUIREMENTS 
